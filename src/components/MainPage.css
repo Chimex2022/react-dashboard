@@ -1,0 +1,14 @@
+.main-image {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    
+}
+
+.main-image > img {
+    width: 350px;
+    border-radius: 6px;
+   
+}

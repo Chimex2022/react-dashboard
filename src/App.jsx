@@ -1,5 +1,6 @@
 import React from 'react'
 import './App.css'
+import MainPage from './components/MainPage'
 import Sidebar from './components/Sidebar'
 
 function App() {
@@ -7,7 +8,7 @@ function App() {
     <div className='app'>
       <div className="app__body">
         <Sidebar />
-        <div></div>
+        <MainPage />
         <div></div>
       </div>
     </div>
