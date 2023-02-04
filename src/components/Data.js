@@ -1,107 +1,92 @@
-import {
-  UilEstate,
-  UilShopping,
-  UilWarehouse,
-  UilCompany,
-  UilFactory,
-  UilWorship,
-  UilBungalow,
-  UilHouse,
-  Uil,
-  UilWarehouse,
-  UilWarehouse,
-  UilWarehouse,
-  UilWarehouse,
-  UilWarehouse,
-  UilWarehouse,
-  UilWarehouse,
-  UilWarehouse,
-  UilWarehouse,
-} from '@iconscout/react-unicons'
+import {FaHouseUser} from 'react-icons/fa'
+import {BiBuildingHouse} from 'react-icons/bi' 
+import {TfiShoppingCartFull} from 'react-icons/tfi'
+import {FaWarehouse} from 'react-icons/fa'
+import {FcFactory} from 'react-icons/fc'
+// import {FaPlaceOfWorship} from 'react-icons/fa'
+// import {MdBungalow} from 'react-icons/md'
+// import {FaHotel } from 'react-icons/fa'
+// import {MdOutlineOtherHouses} from 'react-icons/md'
 
 export const SidebarData = [
   {
-    icon: UilEstate,
+    icon:FaHouseUser ,
     heading: 'Land & Building',
   },
 
   {
-    icon: UilEstate,
-    heading: 'Land & Building',
+    icon: TfiShoppingCartFull,
+    heading: 'Shopping mall',
   },
 
   {
-    icon: UilEstate,
-    heading: 'Land & Building',
+    icon: FaWarehouse,
+    heading: 'Warehouse',
   },
 
   {
-    icon: UilEstate,
-    heading: 'Land & Building',
+    icon: BiBuildingHouse,
+    heading: 'Industries',
   },
 
   {
-    icon: UilEstate,
-    heading: 'Land & Building',
+    icon: FcFactory,
+    heading: 'Factories',
   },
 
-  {
-    icon: UilEstate,
-    heading: 'Land & Building',
-  },
+  // {
+  //   icon: FaPlaceOfWorship,
+  //   heading: 'Worship centres',
+  // },
 
-  {
-    icon: UilEstate,
-    heading: 'Land & Building',
-  },
+  // {
+  //   icon: MdBungalow,
+  //   heading: 'Bungalow',
+  // },
 
-  {
-    icon: UilEstate,
-    heading: 'Land & Building',
-  },
+  // {
+  //   icon: BiBuildingHouse ,
+  //   heading: 'Duplexes',
+  // },
 
-  {
-    icon: UilEstate,
-    heading: 'Land & Building',
-  },
+  // {
+  //   icon: BiBuildingHouse,
+  //   heading: 'Masions',
+  // },
 
-  {
-    icon: UilEstate,
-    heading: 'Land & Building',
-  },
+  // {
+  //   icon: FaHotel,
+  //   heading: 'Hotel space',
+  // },
 
-  {
-    icon: UilEstate,
-    heading: 'Land & Building',
-  },
+  // {
+  //   icon: BiBuildingHouse ,
+  //   heading: 'Mini flats',
+  // },
 
-  {
-    icon: UilEstate,
-    heading: 'Land & Building',
-  },
+  // {
+  //   icon: BiBuildingHouse,
+  //   heading: '2 bedroom flats',
+  // },
 
-  {
-    icon: UilEstate,
-    heading: 'Land & Building',
-  },
+  // {
+  //   icon: MdBungalow,
+  //   heading: '3 Bedflats',
+  // },
 
-  {
-    icon: UilEstate,
-    heading: 'Land & Building',
-  },
+  // {
+  //   icon: BiBuildingHouse,
+  //   heading: 'Detached bulding',
+  // },
 
-  {
-    icon: UilEstate,
-    heading: 'Land & Building',
-  },
+  // {
+  //   icon: MdOutlineOtherHouses ,
+  //   heading: 'Single standard room',
+  // },
 
-  {
-    icon: UilEstate,
-    heading: 'Land & Building',
-  },
+  // {
+  //   icon: MdOutlineOtherHouses,
+  //   heading: 'Others',
+  // },
 
-  {
-    icon: UilEstate,
-    heading: 'Land & Building',
-  },
 ]
